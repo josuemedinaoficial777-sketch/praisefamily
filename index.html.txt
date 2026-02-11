@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Praise Family | Música Cristiana Familiar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Praise Family es un proyecto musical cristiano familiar de Argentina. Escuchá nuestra música en Spotify, Apple Music y YouTube.">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #0f172a, #1e1b4b);
+      color: white;
+      text-align: center;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    img {
+      width: 280px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      margin-top: 60px;
+      font-size: 28px;
+    }
+    p {
+      line-height: 1.6;
+      color: #e2e8f0;
+    }
+    .button {
+      display: inline-block;
+      margin: 15px;
+      padding: 14px 28px;
+      background: #facc15;
+      color: black;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .button:hover {
+      background: white;
+    }
+    .section {
+      margin-top: 60px;
+    }
+    footer {
+      margin-top: 80px;
+      padding: 20px;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- LOGO -->
+  <img src="https://i.imgur.com/your-logo-link.png" alt="Praise Family Logo">
+
+  <h1>Praise Family</h1>
+  <p>Proyecto Musical Cristiano Familiar | Argentina</p>
+
+  <!-- SOBRE NOSOTROS -->
+  <div class="section">
+    <h2>Nuestra Esencia</h2>
+    <p>
+      Praise Family es un proyecto musical cristiano que une familia, fe y adoración.
+      A través de cada canción buscamos transmitir esperanza, valores y la presencia de Dios a cada hogar.
+    </p>
+  </div>
+
+  <!-- MÚSICA -->
+  <div class="section">
+    <h2>Escuchanos</h2>
+
+    <a class="button" href="https://open.spotify.com/album/09X6Sr5bORw5QYxuqCeR8T" target="_blank">
+      Escuchar en Spotify
+    </a>
+
+    <a class="button" href="https://geo.music.apple.com/album/no-fallaras-single/1867921907" target="_blank">
+      Escuchar en Apple Music
+    </a>
+
+    <a class="button" href="https://youtube.com/@praisefamilyar" target="_blank">
+      Ver en YouTube
+    </a>
+  </div>
+
+  <!-- INSTAGRAM -->
+  <div class="section">
+    <h2>Seguinos</h2>
+    <a class="button" href="https://www.instagram.com/praise_family.ar" target="_blank">
+      Instagram Oficial
+    </a>
+  </div>
+
+  <!-- SER PARTE -->
+  <div class="section">
+    <h2>Sé Parte de Praise Family</h2>
+    <p>
+      Queremos que seas parte de esta visión. Compartí nuestra música,
+      apoyá el proyecto y caminemos juntos en fe.
+    </p>
+
+    <a class="button" href="mailto:josuemedinaoficial777@gmail.com">
+      Contactanos
+    </a>
+  </div>
+
+  <footer>
+    © 2026 Praise Family | Música Cristiana Familiar | Argentina
+  </footer>
+
+</div>
+
+</body>
+</html>
