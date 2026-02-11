@@ -1,145 +1,171 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Praise Family | Música Cristiana Familiar</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Praise Family es un proyecto musical cristiano familiar de Argentina.">
+<meta charset="UTF-8">
+<title>Praise Family | Música Cristiana Familiar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google Font Premium -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: radial-gradient(circle at top, #1e1b4b, #0f172a);
-      color: white;
-      text-align: center;
-      overflow-x: hidden;
-    }
+<style>
+body {
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  color:white;
+  text-align:center;
+  overflow-x:hidden;
+  background:#0f172a;
+}
 
-    .container {
-      padding: 60px 20px;
-      max-width: 900px;
-      margin: auto;
-      animation: fadeIn 1.2s ease-in-out;
-    }
+/* PARTICLES BACKGROUND */
+#particles-js{
+  position:fixed;
+  width:100%;
+  height:100%;
+  z-index:-1;
+  top:0;
+  left:0;
+}
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
+/* CONTENT */
+.container{
+  padding:80px 20px;
+  max-width:1000px;
+  margin:auto;
+  animation:fadeIn 1.5s ease;
+}
 
-    .logo {
-      width: 320px;
-      max-width: 90%;
-      margin-bottom: 30px;
-      filter: drop-shadow(0 0 20px rgba(250,204,21,0.3));
-    }
+@keyframes fadeIn{
+  from{opacity:0; transform:translateY(30px);}
+  to{opacity:1; transform:translateY(0);}
+}
 
-    h1 {
-      font-size: 48px;
-      font-weight: 700;
-      margin-bottom: 10px;
-      letter-spacing: 1px;
-    }
+.logo{
+  width:340px;
+  max-width:90%;
+  margin-bottom:30px;
+  filter:drop-shadow(0 0 30px rgba(250,204,21,0.4));
+}
 
-    p {
-      color: #cbd5e1;
-      font-size: 18px;
-      line-height: 1.7;
-    }
+h1{
+  font-size:54px;
+  margin-bottom:10px;
+  font-weight:700;
+  letter-spacing:2px;
+}
 
-    h2 {
-      margin-top: 70px;
-      font-size: 30px;
-      font-weight: 600;
-    }
+.subtitle{
+  font-size:18px;
+  color:#cbd5e1;
+  margin-bottom:60px;
+}
 
-    .button {
-      display: inline-block;
-      margin: 15px;
-      padding: 15px 32px;
-      background: rgba(255,255,255,0.1);
-      backdrop-filter: blur(10px);
-      color: #facc15;
-      text-decoration: none;
-      border-radius: 50px;
-      font-weight: 600;
-      border: 1px solid rgba(255,255,255,0.2);
-      transition: all 0.3s ease;
-    }
+/* GLASS CARD */
+.card{
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(15px);
+  padding:40px;
+  border-radius:20px;
+  margin-top:60px;
+  box-shadow:0 20px 40px rgba(0,0,0,0.5);
+}
 
-    .button:hover {
-      background: #facc15;
-      color: black;
-      transform: translateY(-4px);
-      box-shadow: 0 10px 25px rgba(250,204,21,0.4);
-    }
+h2{
+  margin-bottom:20px;
+  font-weight:600;
+}
 
-    .section {
-      margin-top: 70px;
-    }
+/* BUTTONS */
+.button{
+  display:inline-block;
+  margin:15px;
+  padding:15px 35px;
+  border-radius:50px;
+  text-decoration:none;
+  font-weight:600;
+  background:rgba(255,255,255,0.1);
+  color:#facc15;
+  border:1px solid rgba(255,255,255,0.2);
+  transition:all 0.3s ease;
+}
 
-    footer {
-      margin-top: 100px;
-      padding: 20px;
-      font-size: 14px;
-      color: #94a3b8;
-    }
-  </style>
+.button:hover{
+  background:#facc15;
+  color:black;
+  transform:translateY(-5px);
+  box-shadow:0 10px 30px rgba(250,204,21,0.4);
+}
+
+iframe{
+  border-radius:20px;
+  margin-top:20px;
+}
+
+footer{
+  margin-top:100px;
+  font-size:14px;
+  color:#94a3b8;
+}
+</style>
 </head>
 
 <body>
 
+<div id="particles-js"></div>
+
 <div class="container">
 
-  <img src="logo.png" alt="Praise Family Logo" class="logo">
+<img src="logo.png" class="logo" alt="Praise Family Logo">
 
-  <h1>Praise Family</h1>
-  <p>Proyecto Musical Cristiano Familiar | Argentina</p>
+<h1>Praise Family</h1>
+<p class="subtitle">Música Cristiana Familiar | Argentina</p>
 
-  <div class="section">
-    <h2>Nuestra Esencia</h2>
-    <p>
-      Unimos familia, fe y adoración en cada canción.
-      Nuestra misión es llevar esperanza y la presencia de Dios a cada hogar.
-    </p>
-  </div>
+<div class="card">
+<h2>Escuchá Nuestro Último Lanzamiento</h2>
 
-  <div class="section">
-    <h2>Escuchanos</h2>
-
-    <a class="button" href="https://open.spotify.com/album/09X6Sr5bORw5QYxuqCeR8T" target="_blank">
-      Spotify
-    </a>
-
-    <a class="button" href="https://geo.music.apple.com/album/no-fallaras-single/1867921907" target="_blank">
-      Apple Music
-    </a>
-
-    <a class="button" href="https://youtube.com/@praisefamilyar" target="_blank">
-      YouTube
-    </a>
-  </div>
-
-  <div class="section">
-    <h2>Seguinos</h2>
-    <a class="button" href="https://www.instagram.com/praise_family.ar" target="_blank">
-      Instagram
-    </a>
-  </div>
-
-  <footer>
-    © 2026 Praise Family | Música Cristiana Familiar
-  </footer>
+<!-- REPRODUCTOR SPOTIFY -->
+<iframe style="border-radius:12px" 
+src="https://open.spotify.com/embed/album/09X6Sr5bORw5QYxuqCeR8T?utm_source=generator" 
+width="100%" height="380" frameBorder="0" 
+allowfullscreen="" 
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+</iframe>
 
 </div>
 
+<div class="card">
+<h2>Seguinos</h2>
+
+<a class="button" href="https://open.spotify.com/album/09X6Sr5bORw5QYxuqCeR8T" target="_blank">Spotify</a>
+<a class="button" href="https://youtube.com/@praisefamilyar" target="_blank">YouTube</a>
+<a class="button" href="https://www.instagram.com/praise_family.ar" target="_blank">Instagram</a>
+
+</div>
+
+<footer>
+© 2026 Praise Family | Worship Cinematic Experience
+</footer>
+
+</div>
+
+<!-- PARTICLES SCRIPT -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+particlesJS("particles-js", {
+  "particles": {
+    "number": { "value": 80 },
+    "color": { "value": "#facc15" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.5 },
+    "size": { "value": 3 },
+    "move": { "enable": true, "speed": 1 }
+  }
+});
+</script>
+
 </body>
 </html>
-
 
 
 
